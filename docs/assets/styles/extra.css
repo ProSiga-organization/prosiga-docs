@@ -1,0 +1,13 @@
+:root {
+  --md-primary-fg-color: #2563eb;
+  --md-accent-fg-color: #0ea5e9;
+}
+/* Ajustes tipográficos */
+.md-typeset h1 { font-weight: 600; letter-spacing: -0.5px; }
+.md-typeset h2 { font-weight: 500; }
+/* Código */
+.highlight code, pre code { font-size: 0.9rem; }
+/* Header translucido */
+.md-header { backdrop-filter: blur(6px); background: rgba(20,25,38,0.85); }
+/* Tabs mais suaves */
+.md-tabs { background: none; }

@@ -1,0 +1,27 @@
+# Python / venv
+.venv/
+ENV/
+venv/
+*.pyc
+__pycache__/
+
+# MkDocs build output
+site/
+
+# System / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Caches
+.cache/
+.mypy_cache/
+pytest_cache/
+
+# Logs
+*.log
+
+# Node (caso adicione algo futuramente)
+node_modules/
