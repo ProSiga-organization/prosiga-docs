@@ -11,10 +11,10 @@
       
       
       
-        <link rel="prev" href="../guia-rapido/">
+        <link rel="prev" href="../backlog/">
       
       
-        <link rel="next" href="../sobre/">
+        <link rel="next" href="../prototipo/">
       
       
       <link rel="icon" href="../assets/logo.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Referência - PróSiga Docs</title>
+        <title>Diagrama de Classes - PróSiga Docs</title>
       
     
     
@@ -75,11 +75,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#referencia" class="md-skip">
-          Ir para o conteúdo
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -111,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Referência
+              Diagrama de Classes
             
           </span>
         </div>
@@ -237,13 +232,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../guia-rapido/" class="md-tabs__link">
+      <a href="../backlog/" class="md-tabs__link">
         
   
   
     
   
-  Guia Rápido
+  Backlog
 
       </a>
     </li>
@@ -264,7 +259,7 @@
   
     
   
-  Referência
+  Diagrama de Classes
 
       </a>
     </li>
@@ -277,13 +272,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../sobre/" class="md-tabs__link">
+      <a href="../prototipo/" class="md-tabs__link">
         
   
   
     
   
-  Sobre
+  Protótipo
 
       </a>
     </li>
@@ -371,12 +366,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../guia-rapido/" class="md-nav__link">
+      <a href="../backlog/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Guia Rápido
+    Backlog
     
   </span>
   
@@ -399,15 +394,13 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Referência
+    Diagrama de Classes
     
   </span>
   
@@ -425,12 +418,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../sobre/" class="md-nav__link">
+      <a href="../prototipo/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Sobre
+    Protótipo
     
   </span>
   
@@ -459,8 +452,27 @@
   
 
 
-<h1 id="referencia">Referência<a class="headerlink" href="#referencia" title="Permanent link">&para;</a></h1>
-<p>Coloque aqui descrições detalhadas de módulos, componentes ou APIs.</p>
+  <h1>Diagrama de Classes</h1>
+
+<p>Para representar o sistema <strong>ProSiga</strong>, foram elaborados dois diagramas com propósitos distintos e complementares:</p>
+<ol>
+<li>
+<p><strong>Diagrama de Classes Lógico</strong>
+   Este diagrama descreve as principais entidades do sistema, seus atributos, relacionamentos e especializações. Ele evidencia como os elementos fundamentais, como <strong>Usuário</strong>, <strong>Aluno</strong>, <strong>Professor</strong>, <strong>Coordenador</strong>, <strong>Curso</strong>, <strong>Disciplina</strong>, <strong>Turma</strong>, <strong>Matrícula</strong> e <strong>Período Letivo</strong>, se relacionam entre si. <br>
+ <br />
+<iframe frameborder="0" style="width:100%;height:1013px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ProSiga.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1I-k8KKUcJ-9vpvbw7Zf8W_7wMUfyQMsn%26export%3Ddownload" allowtransparency="true"></iframe>
+</p>
+</li>
+<li>
+<p><strong>Diagrama Arquitetural (MVC)</strong>
+   O segundo diagrama tem como objetivo mostrar a <strong>organização arquitetural do sistema</strong> de acordo com o padrão <strong>Model-View-Controller (MVC)</strong>. Nele, as classes foram distribuídas em três pacotes principais:</p>
+<p><strong>Model</strong>: contém as entidades do sistema e suas regras de negócio.</p>
+<p><strong>Controller</strong>: concentra a lógica de controle, como autenticação, matrícula e exportação de relatórios.</p>
+<p><strong>View</strong>: representa a interface do usuário, com as telas de login, aluno, professor e coordenador.</p>
+<p>Essa separação reforça a modularidade e a independência entre as camadas, destacando como as <strong>views</strong> interagem apenas com os <strong>controllers</strong>, que por sua vez manipulam os <strong>models</strong>. <br>
+<iframe frameborder="0" style="width:100%;height:1221px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=ProSiga.drawio&page-id=8XxgSxSN-SDqZBF82btg&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1I-k8KKUcJ-9vpvbw7Zf8W_7wMUfyQMsn%26export%3Ddownload" allowtransparency="true"></iframe></p>
+</li>
+</ol>
 
 
 
