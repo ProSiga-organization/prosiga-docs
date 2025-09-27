@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#procuct-backlog" class="md-skip">
+        <a href="#product-backlog" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -380,6 +380,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Backlog
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -391,6 +404,76 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#organizacao-do-backlog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Organização do Backlog
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Organização do Backlog">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#epico-gestao-de-usuarios-e-acesso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Épico: Gestão de Usuários e Acesso
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epico-jornada-administrativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Épico: Jornada Administrativa
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epico-jornada-do-aluno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Épico: Jornada do Aluno
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epico-jornada-do-docente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Épico: Jornada do Docente
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -459,7 +542,135 @@
   
 
 
-<h1 id="procuct-backlog">Procuct Backlog<a class="headerlink" href="#procuct-backlog" title="Permanent link">&para;</a></h1>
+<h1 id="product-backlog">Product Backlog<a class="headerlink" href="#product-backlog" title="Permanent link">&para;</a></h1>
+<p>O backlog do sistema foi organizado em <strong>épicos</strong>, que representam grandes blocos de funcionalidades. Cada épico é composto por <strong>histórias de usuário (US)</strong>, que descrevem de forma detalhada as necessidades dos diferentes perfis (aluno, professor, administrador e novo usuário).</p>
+<hr />
+<h2 id="organizacao-do-backlog">Organização do Backlog<a class="headerlink" href="#organizacao-do-backlog" title="Permanent link">&para;</a></h2>
+<p>O backlog está sendo estruturado e atualizado na ferramenta <a href="https://tree.taiga.io/project/manuvaladares-tppe/kanban">Taiga</a>. A seguir, estão listados os épicos e suas respectivas histórias de usuário.</p>
+<h3 id="epico-gestao-de-usuarios-e-acesso">Épico: Gestão de Usuários e Acesso<a class="headerlink" href="#epico-gestao-de-usuarios-e-acesso" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>História de Usuário</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US-001</td>
+<td>Como usuário, quero realizar o primeiro acesso no sistema com informações específicas do meu perfil (Aluno, Professor ou Administrador), para que eu possa acessar as funcionalidades adequadas.</td>
+</tr>
+<tr>
+<td>US-002</td>
+<td>Como usuário, quero acessar o sistema através de uma tela de login única, para que após a autenticação eu seja direcionado automaticamente para minha área correspondente.</td>
+</tr>
+<tr>
+<td>US-003</td>
+<td>Como aluno, quero que o sistema gere automaticamente minha matrícula única e sequencial no momento do priemeiro acesso, para que eu tenha uma identificação oficial no sistema.</td>
+</tr>
+<tr>
+<td>US-004</td>
+<td>Como usuário, quero recuperar minha senha através de e-mail, para que eu possa restabelecer o acesso em caso de esquecimento.</td>
+</tr>
+<tr>
+<td>US-005</td>
+<td>Como administrador, quero cadastrar novos usuários no sistema, para garantir a segurança e manter os acessos atualizados.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="epico-jornada-administrativa">Épico: Jornada Administrativa<a class="headerlink" href="#epico-jornada-administrativa" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>História de Usuário</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US-009</td>
+<td>Como administrador, quero gerenciar os períodos letivos (ex: 2025.1, 2025.2), abrindo e fechando-os para matrícula, para organizar os ciclos acadêmicos.</td>
+</tr>
+<tr>
+<td>US-010</td>
+<td>Como administrador, quero criar, editar, listar e excluir turmas em cada período letivo, definindo professor, vagas e critérios de aprovação, para disponibilizar as disciplinas aos alunos.</td>
+</tr>
+<tr>
+<td>US-011</td>
+<td>Como administrador, quero matricular alunos manualmente em turmas, ignorando regras de vagas e pré-requisitos com justificativa, para resolver exceções.</td>
+</tr>
+<tr>
+<td>US-012</td>
+<td>Como administrador, quero emitir relatórios gerenciais (lista de alunos por curso, turmas por professor, ocupação de vagas, histórico de disciplinas), para acompanhar o funcionamento do sistema.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="epico-jornada-do-aluno">Épico: Jornada do Aluno<a class="headerlink" href="#epico-jornada-do-aluno" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>História de Usuário</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US-018</td>
+<td>Como aluno, quero filtrar as disciplinas ao me matricular, para planejar meu curso.</td>
+</tr>
+<tr>
+<td>US-019</td>
+<td>Como aluno, quero me matricular em disciplinas do meu curso, desde que haja vaga, pré-requisitos cumpridos e período aberto, para avançar nos estudos.</td>
+</tr>
+<tr>
+<td>US-022</td>
+<td>Como aluno, quero visualizar minhas notas em disciplinas em andamento, para acompanhar meu progresso.</td>
+</tr>
+<tr>
+<td>US-021</td>
+<td>Como aluno, quero exportar meu histórico acadêmico em PDF, para acompanhar meu desempenho ao longo do curso.</td>
+</tr>
+<tr>
+<td>US-023</td>
+<td>Como aluno, quero listar os colegas matriculados na mesma turma, para saber quem estuda comigo.</td>
+</tr>
+<tr>
+<td>US-024</td>
+<td>Como aluno, quero solicitar o trancamento de disciplinas dentro do prazo estabelecido, para reorganizar minha carga horária no semestre.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="epico-jornada-do-docente">Épico: Jornada do Docente<a class="headerlink" href="#epico-jornada-do-docente" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>História de Usuário</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US-013</td>
+<td>Como professor, quero visualizar apenas as turmas atribuídas a mim no período letivo atual, para organizar meu trabalho acadêmico.</td>
+</tr>
+<tr>
+<td>US-015</td>
+<td>Como professor, quero lançar as notas dos alunos da turma, para acompanhar o desempenho acadêmico.</td>
+</tr>
+<tr>
+<td>US-016</td>
+<td>Como professor, quero exportar as notas dos meus alunos para uma planilha, para evitar erros manuais.</td>
+</tr>
+<tr>
+<td>US-017</td>
+<td>Como professor, quero emitir um diário por turma (notas e status) em PDF, para ter um relatório consolidado do desempenho da turma.</td>
+</tr>
+</tbody>
+</table>
+<hr />
 
 
 
