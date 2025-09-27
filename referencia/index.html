@@ -6,27 +6,23 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Documentação do sistema ProSiga">
+        <meta name="description" content="Documentação do sistema de gerenciamento acadêmico PróSiga">
       
       
-        <meta name="author" content="ProSiga Organization">
       
       
-        <link rel="canonical" href="https://prosiga-organization.github.io/prosiga-docs/guia-usuario/">
+        <link rel="prev" href="../guia-rapido/">
       
       
-        <link rel="prev" href="../instalacao/">
+        <link rel="next" href="../sobre/">
       
       
-        <link rel="next" href="../api/">
-      
-      
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../assets/favicon.svg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
     
     
       
-        <title>Guia do Usuário - ProSiga Docs</title>
+        <title>Referência - PróSiga Docs</title>
       
     
     
@@ -52,6 +48,8 @@
       
     
     
+      <link rel="stylesheet" href="../assets/styles/extra.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -69,7 +67,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -78,8 +76,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#guia-do-usuario" class="md-skip">
-          Pular para conteúdo
+        <a href="#referencia" class="md-skip">
+          Ir para o conteúdo
         </a>
       
     </div>
@@ -90,12 +88,13 @@
     
       
 
-<header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
-    <a href=".." title="ProSiga Docs" class="md-header__button md-logo" aria-label="ProSiga Docs" data-md-component="logo">
-      
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href=".." title="PróSiga Docs" class="md-header__button md-logo" aria-label="PróSiga Docs" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -106,13 +105,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            ProSiga Docs
+            PróSiga Docs
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Guia do Usuário
+              Referência
             
           </span>
         </div>
@@ -125,9 +124,9 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Mudar para modo escuro"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Modo escuro"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="Mudar para modo escuro" for="__palette_1" hidden>
+      <label class="md-header__button md-icon" title="Modo escuro" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -135,9 +134,9 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Mudar para modo claro"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Modo claro"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Mudar para modo claro" for="__palette_0" hidden>
+      <label class="md-header__button md-icon" title="Modo claro" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
     
@@ -175,12 +174,14 @@
         </button>
       </nav>
       
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Inicializando busca
+            Inicializando a pesquisa
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -192,27 +193,21 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/ProSiga-organization/prosiga-docs" title="Ir para repositório" class="md-source" data-md-component="source">
+        <a href="https://github.com/ProSiga-organization/prosiga-docs" title="Ir ao repositório" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
-    ProSiga-organization/prosiga-docs
+    prosiga-docs
   </div>
 </a>
       </div>
     
   </nav>
   
-</header>
     
-    <div class="md-container" data-md-component="container">
       
-      
-        
-          
-            
 <nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
@@ -242,13 +237,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../instalacao/" class="md-tabs__link">
+      <a href="../guia-rapido/" class="md-tabs__link">
         
   
   
     
   
-  Instalação
+  Guia Rápido
 
       </a>
     </li>
@@ -269,7 +264,7 @@
   
     
   
-  Guia do Usuário
+  Referência
 
       </a>
     </li>
@@ -282,32 +277,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../api/" class="md-tabs__link">
+      <a href="../sobre/" class="md-tabs__link">
         
   
   
     
   
-  API
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../faq/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  FAQ
+  Sobre
 
       </a>
     </li>
@@ -317,7 +293,13 @@
     </ul>
   </div>
 </nav>
-          
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
         
       
       <main class="md-main" data-md-component="main">
@@ -334,25 +316,26 @@
   
 
 
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href=".." title="ProSiga Docs" class="md-nav__button md-logo" aria-label="ProSiga Docs" data-md-component="logo">
-      
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="PróSiga Docs" class="md-nav__button md-logo" aria-label="PróSiga Docs" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
 
     </a>
-    ProSiga Docs
+    PróSiga Docs
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/ProSiga-organization/prosiga-docs" title="Ir para repositório" class="md-source" data-md-component="source">
+      <a href="https://github.com/ProSiga-organization/prosiga-docs" title="Ir ao repositório" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
-    ProSiga-organization/prosiga-docs
+    prosiga-docs
   </div>
 </a>
     </div>
@@ -388,12 +371,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../instalacao/" class="md-nav__link">
+      <a href="../guia-rapido/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Instalação
+    Guia Rápido
     
   </span>
   
@@ -419,127 +402,17 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Guia do Usuário
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Guia do Usuário
+    Referência
     
   </span>
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Índice">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Índice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#dashboard" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dashboard
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#modulos-principais" class="md-nav__link">
-    <span class="md-ellipsis">
-      Módulos Principais
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Módulos Principais">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#gestao-de-usuarios" class="md-nav__link">
-    <span class="md-ellipsis">
-      Gestão de Usuários
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#relatorios" class="md-nav__link">
-    <span class="md-ellipsis">
-      Relatórios
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#configuracoes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Configurações
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#primeiros-passos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Primeiros Passos
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#dicas-e-truques" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dicas e Truques
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#suporte" class="md-nav__link">
-    <span class="md-ellipsis">
-      Suporte
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -552,34 +425,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../api/" class="md-nav__link">
+      <a href="../sobre/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    API
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    FAQ
+    Sobre
     
   </span>
   
@@ -596,110 +447,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Índice">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Índice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#dashboard" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dashboard
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#modulos-principais" class="md-nav__link">
-    <span class="md-ellipsis">
-      Módulos Principais
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Módulos Principais">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#gestao-de-usuarios" class="md-nav__link">
-    <span class="md-ellipsis">
-      Gestão de Usuários
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#relatorios" class="md-nav__link">
-    <span class="md-ellipsis">
-      Relatórios
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#configuracoes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Configurações
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#primeiros-passos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Primeiros Passos
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#dicas-e-truques" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dicas e Truques
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#suporte" class="md-nav__link">
-    <span class="md-ellipsis">
-      Suporte
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -712,59 +459,8 @@
   
 
 
-<h1 id="guia-do-usuario">Guia do Usuário<a class="headerlink" href="#guia-do-usuario" title="Permanent link">&para;</a></h1>
-<p>Este guia apresenta as principais funcionalidades do ProSiga.</p>
-<h2 id="dashboard">Dashboard<a class="headerlink" href="#dashboard" title="Permanent link">&para;</a></h2>
-<p>O dashboard é a página inicial do sistema onde você pode:</p>
-<ul>
-<li>Visualizar estatísticas gerais</li>
-<li>Acessar módulos principais</li>
-<li>Ver notificações importantes</li>
-</ul>
-<h2 id="modulos-principais">Módulos Principais<a class="headerlink" href="#modulos-principais" title="Permanent link">&para;</a></h2>
-<h3 id="gestao-de-usuarios">Gestão de Usuários<a class="headerlink" href="#gestao-de-usuarios" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Cadastro de usuários</li>
-<li>Controle de permissões</li>
-<li>Perfis de acesso</li>
-</ul>
-<h3 id="relatorios">Relatórios<a class="headerlink" href="#relatorios" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Relatórios financeiros</li>
-<li>Relatórios operacionais</li>
-<li>Exportação de dados</li>
-</ul>
-<h3 id="configuracoes">Configurações<a class="headerlink" href="#configuracoes" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Configurações do sistema</li>
-<li>Personalização da interface</li>
-<li>Backup e restauração</li>
-</ul>
-<h2 id="primeiros-passos">Primeiros Passos<a class="headerlink" href="#primeiros-passos" title="Permanent link">&para;</a></h2>
-<ol>
-<li><strong>Login</strong>: Faça login com suas credenciais</li>
-<li><strong>Perfil</strong>: Complete seu perfil de usuário</li>
-<li><strong>Exploração</strong>: Navegue pelos módulos disponíveis</li>
-<li><strong>Configuração</strong>: Ajuste as configurações conforme sua necessidade</li>
-</ol>
-<h2 id="dicas-e-truques">Dicas e Truques<a class="headerlink" href="#dicas-e-truques" title="Permanent link">&para;</a></h2>
-<div class="admonition tip">
-<p class="admonition-title">Dica</p>
-<p>Use os atalhos de teclado para navegar mais rapidamente:
-- <code>Ctrl + /</code> - Abrir busca
-- <code>Ctrl + Home</code> - Voltar ao dashboard</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">Atenção</p>
-<p>Sempre faça logout ao terminar de usar o sistema, especialmente em computadores compartilhados.</p>
-</div>
-<h2 id="suporte">Suporte<a class="headerlink" href="#suporte" title="Permanent link">&para;</a></h2>
-<p>Se você encontrar problemas:</p>
-<ol>
-<li>Consulte a seção de FAQ</li>
-<li>Entre em contato com o suporte técnico</li>
-<li>Abra um ticket no sistema de suporte</li>
-</ol>
+<h1 id="referencia">Referência<a class="headerlink" href="#referencia" title="Permanent link">&para;</a></h1>
+<p>Coloque aqui descrições detalhadas de módulos, componentes ou APIs.</p>
 
 
 
@@ -788,7 +484,7 @@
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  Voltar para o topo
+  Voltar ao topo
 </button>
         
       </main>
@@ -819,10 +515,14 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.path", "navigation.top", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.instant", "navigation.path", "toc.integrate", "search.suggest", "search.highlight", "toc.follow", "content.code.copy", "content.code.annotation", "content.tooltips"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../assets/scripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
