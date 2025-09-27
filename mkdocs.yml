@@ -66,6 +66,6 @@ markdown_extensions:
 
 nav:
   - Início: index.md
-  - Guia Rápido: guia-rapido.md
-  - Referência: referencia.md
-  - Sobre: sobre.md
+  - Backlog: backlog.md
+  - Diagrama de Classes: diagrama.md
+  - Protótipo: prototipo.md
