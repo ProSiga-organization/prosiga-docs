@@ -29,6 +29,7 @@ O backlog está sendo estruturado e atualizado na ferramenta [Taiga](https://tre
 | US-010 | Como administrador, quero criar, editar, listar e excluir turmas por período letivo definindo professor responsável, número de vagas e critérios de aprovação, para disponibilizar disciplinas aos alunos de forma organizada. |
 | US-011 | Como administrador, quero matricular alunos manualmente em turmas mesmo quando há restrições de vagas ou pré-requisitos, fornecendo justificativa, para resolver casos excepcionais e situações especiais. |
 | US-012 | Como administrador, quero gerar relatórios gerenciais (lista de alunos por curso, turmas por professor, ocupação de vagas, histórico de disciplinas), para monitorar e acompanhar o funcionamento do sistema acadêmico. |
+| US-026 | Como administrador, quero criar, editar, visualizar e excluir avisos por curso, para comunicar informações importantes que afetam todos os alunos de um curso específico. |
  
 
 ---
@@ -43,6 +44,7 @@ O backlog está sendo estruturado e atualizado na ferramenta [Taiga](https://tre
 | US-021 | Como aluno, quero exportar meu histórico acadêmico completo em formato PDF, para ter um documento oficial do meu desempenho e progresso no curso. |
 | US-023 | Como aluno, quero visualizar a lista de colegas matriculados na mesma turma que eu, para conhecer minha turma e facilitar a interação acadêmica. |
 | US-024 | Como aluno, quero solicitar trancamento de disciplinas dentro do prazo regulamentado, para reorganizar minha carga horária quando necessário sem prejuízos acadêmicos. |
+| US-027 | Como aluno, quero visualizar avisos das minhas turmas e do meu curso, para me manter atualizado sobre comunicados importantes dos professores e da coordenação. |
 
 ---
 
@@ -54,5 +56,6 @@ O backlog está sendo estruturado e atualizado na ferramenta [Taiga](https://tre
 | US-015 | Como professor, quero lançar e atualizar as notas dos alunos das minhas turmas, para registrar e acompanhar o desempenho acadêmico de forma oficial. |
 | US-016 | Como professor, quero exportar as notas dos meus alunos em formato de planilha (Excel/CSV), para facilitar análises e evitar erros de transcrição manual. |
 | US-017 | Como professor, quero gerar um diário de classe em PDF contendo notas e status dos alunos por turma, para ter um relatório consolidado e oficial do desempenho da turma. |
+| US-025 | Como professor, quero criar, editar, visualizar e excluir avisos específicos para minhas turmas, para manter os alunos informados sobre comunicados importantes da disciplina. |
 
 ---
