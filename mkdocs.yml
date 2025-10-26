@@ -68,3 +68,4 @@ nav:
   - Início: index.md
   - Backlog: backlog.md
   - Diagrama de Classes: diagrama.md
+  - Documentação do Banco de Dados: DB.md

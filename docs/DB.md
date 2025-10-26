@@ -1,3 +1,12 @@
+Tanto o Modelo Físico, quanto o DDL foram gerados automaticamente pelo PGAdmin.
+
+## Modelo Físico
+
+![Modelo Físico](assets/fisico.png)
+
+## DDL
+```sql
+
 BEGIN;
 
 
@@ -187,3 +196,5 @@ ALTER TABLE IF EXISTS public.usuarios
     ON DELETE NO ACTION;
 
 END;
+```
+Para visualizar o arquivo SQL com o DDL: [clique aqui](https://github.com/ProSiga-organization/prosiga-docs/blob/main/docs/ddl.sql)
