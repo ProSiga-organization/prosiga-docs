@@ -197,4 +197,4 @@ ALTER TABLE IF EXISTS public.usuarios
 
 END;
 ```
-Para visualizar o arquivo SQL com o DDL: [clique aqui](https://github.com/ProSiga-organization/prosiga-docs/blob/main/docs/ddl.sql)
+Para visualizar o arquivo SQL com o DDL: [clique aqui](https://github.com/ProSiga-organization/prosiga-docs/blob/main/ddl.sql)

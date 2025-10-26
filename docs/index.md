@@ -51,14 +51,7 @@ Esta documentação está organizada nas seguintes seções:
 | Seção | Descrição |
 |-------|-----------|
 | **[Backlog](backlog.md)** | Product backlog completo com épicos e user stories detalhadas |
-| **[Diagrama de Classes](diagrama.md)** | Diagramas lógico e arquitetural do sistema |
-| **[Protótipo](prototipo.md)** | Protótipos de alta fidelidade das interfaces |
-
-## 🔗 Links Úteis
-
-- **Organização no GitHub**: [ProSiga-organization](https://github.com/ProSiga-organization/)
-- **Gerenciamento do Projeto**: [Taiga - ProSiga](https://tree.taiga.io/project/manuvaladares-tppe/kanban)
+| **[Diagrama de Classes](diagrama.md)** | Diagrama lógico do sistema |
+| **[Documentação do Banco de Dados](DB.md)** | Estrutura do banco de dados|
 
 ---
-
-> 💡 **Dica**: Use o menu de navegação superior para explorar diferentes seções da documentação. A busca integrada te ajudará a encontrar informações específicas rapidamente.
