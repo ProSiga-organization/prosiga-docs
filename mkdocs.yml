@@ -66,6 +66,11 @@ markdown_extensions:
 
 nav:
   - Início: index.md
-  - Backlog: backlog.md
-  - Diagrama de Classes: diagrama.md
-  - Documentação do Banco de Dados: DB.md
+  - Documentação Técnica:
+      - Backlog: backlog.md
+      - Diagrama de Classes: diagrama.md
+      - Banco de Dados: DB.md
+  - Guias:
+      - Docker: docker.md
+      - Deploy: deploy.md
+      - Testes: testes.md
