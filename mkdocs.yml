@@ -70,6 +70,7 @@ nav:
       - Backlog: backlog.md
       - Diagrama de Classes: diagrama.md
       - Banco de Dados: DB.md
+      - Protótipos: prototipos.md
   - Guias:
       - Docker: docker.md
       - Deploy: deploy.md
